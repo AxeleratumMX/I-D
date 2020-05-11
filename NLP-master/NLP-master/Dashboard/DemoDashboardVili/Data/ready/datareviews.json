@@ -1,0 +1,553 @@
+[
+    {
+        "review_source_id": 3,
+        "source_id": 100000,
+        "creation_timestamp": "2017-05-27 00:53:05.289",
+        "review_text": "Muy bonito el lugar y las instalaciones. El personal muy amable y atentos. La seguridad es excelente. Sólo que no es para niños menores de 6 años o 1 metro de estatura.",
+        "opinions_id": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    },
+    {
+        "review_source_id": 10,
+        "source_id": 100000,
+        "creation_timestamp": "2017-11-27 19:44:02.351",
+        "review_text": "Muy buen lugar para venir con niños ... no con bebes. ",
+        "opinions_id": [10, 11, 12, 13]
+    },
+    {
+        "review_source_id": 17,
+        "source_id": 100000,
+        "creation_timestamp": "2018-06-22 01:58:36.551",
+        "review_text": "Muy buenas actividades, divertido, seguro. La pasas muy bien todo el día. Un rico buffet al terminar. Recomendable",
+        "opinions_id": [14, 15, 16, 17, 18]
+    },
+    {
+        "review_source_id": 24,
+        "source_id": 100000,
+        "creation_timestamp": "2019-10-09 18:07:13.2",
+        "review_text": "Excelente experiencia! 100% recomendado! Vayan en tenis para agua, descansados y en traje de baño! Y al final vayan con hambre al restaurante, comida muy rica que no vas a querer desaprovechar. Todas las atracciones son muy seguras y con un toque de adrenalina!",
+        "opinions_id": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+    },
+    {
+        "review_source_id": 31,
+        "source_id": 100000,
+        "creation_timestamp": "2018-11-16 08:25:51.115",
+        "review_text": "Pura adrenalina. Excelentes condiciones. Baños bien limpios. Excelente comidas y bebidas. Lo recomiendo.",
+        "opinions_id": [33, 34, 35, 36, 37, 38, 39]
+    },
+    {
+        "review_source_id": 38,
+        "source_id": 100000,
+        "creation_timestamp": "2019-03-05 03:49:56.964",
+        "review_text": "Me encantó, una combinación de adrenalina con bellos paisajes e interacción con la naturaleza. La comida riquísima, las actividades de lo mejor. El personal muy servicial y atento en todo momento. Muy recomendable.",
+        "opinions_id": [40, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+    },
+    {
+        "review_source_id": 45,
+        "source_id": 100000,
+        "creation_timestamp": "2017-10-05 20:38:12.974",
+        "review_text": "Las actividades son realmente sorprendentes, tienen buena atención y la comida es excelente. Consejo para no esperar en las actividades, siempre mirar cuáles están señaladas como libres. Muy recomendable!",
+        "opinions_id": [50, 51, 52, 53, 54]
+    },
+    {
+        "review_source_id": 52,
+        "source_id": 100000,
+        "creation_timestamp": "2017-07-04 07:30:58.218",
+        "review_text": "Un increíble lugar para visitar, todo el tiempo es divertirte sea cual sea la actividad  a la que vayas, les recomiendo Hotel 1, ya que puedes apreciar las vistas del parque en el día y durante la noche.",
+        "opinions_id": [55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
+    },
+    {
+        "review_source_id": 59,
+        "source_id": 100000,
+        "creation_timestamp": "2019-10-11 03:01:12.964",
+        "review_text": "El restaurante ofrece un amplio buffet para todos los gustos. Totalmente recomendado.",
+        "opinions_id": [65, 66, 67, 68]
+    },
+    {
+        "review_source_id": 66,
+        "source_id": 100000,
+        "creation_timestamp": "2019-01-19 03:47:23.237",
+        "review_text": "Muy divertido. excelente lugar . Tal vez en la tiroleza se podría disminuir las esperas colocando más personal lanzando las personas perfesionando el protocolo. La comida podía estar mejor .",
+        "opinions_id": [69, 70, 71, 72, 73, 74, 75, 76, 77]
+    },
+    {
+        "review_source_id": 73,
+        "source_id": 100000,
+        "creation_timestamp": "2019-12-23 05:27:03.331",
+        "review_text": "Lindo. Lo mejor es el bufete esta increíble y delicioso. Bien organizado.",
+        "opinions_id": [78, 79]
+    },
+    {
+        "review_source_id": 80,
+        "source_id": 100000,
+        "creation_timestamp": "2018-10-15 04:43:35.933",
+        "review_text": "Para los amantes de la aventura y deportes ecoturisticos, excelente parque con actividades para toda la familia, tirolesas, cenotes, vehículos todo terreno etc. El bufete de comida y bebidas viene incluido y es abundante y delicioso. Toda una aventura que no te puedes perder en Cancun!",
+        "opinions_id": [80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92]
+    },
+    {
+        "review_source_id": 87,
+        "source_id": 100000,
+        "creation_timestamp": "2018-10-26 16:11:47.881",
+        "review_text": "Hay muy pocos lugares que a mí esposa y a mi nos hayan sorprendido tanto. La logística es increíble,la organización perfecta y las actividades son las justas para pasar un día completo. El buffet está muy completo y la comida es rica. Voy a recomendarlo con todas las personas que conozco.",
+        "opinions_id": [93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103]
+    },
+    {
+        "review_source_id": 94,
+        "source_id": 100000,
+        "creation_timestamp": "2017-01-08 12:07:40.538",
+        "review_text": "👍Excelente! Muy bien organizado y señalizado. Buen almuerzo de buena calidad y amplia variedad de platos.  ",
+        "opinions_id": [104, 105, 106, 107, 108, 109]
+    },
+    {
+        "review_source_id": 1101,
+        "source_id": 100000,
+        "creation_timestamp": "2017-11-05 15:02:52.866",
+        "review_text": "👎Debe implementar lentes de seguridad para el anfibio.( polvo, piedras y vegetación constituyen un riesgo para la vista)",
+        "opinions_id": [110, 111, 112, 113, 114, 115, 116, 117, 118]
+    },
+    {
+        "review_source_id": 108,
+        "source_id": 100000,
+        "creation_timestamp": "2017-07-03 10:23:59.206",
+        "review_text": "Vale la pena mil % ya que se disfruta al máximo cada una de las actividades y las bebidas y comida son excelentes, maravillosos y delicioso",
+        "opinions_id": [119, 120, 121, 122, 123, 124]
+    },
+    {
+        "review_source_id": 115,
+        "source_id": 100000,
+        "creation_timestamp": "2019-06-26 12:56:28.762",
+        "review_text": "Divertido a cada segundo.",
+        "opinions_id": [125, 126]
+    },
+    {
+        "review_source_id": 122,
+        "source_id": 100000,
+        "creation_timestamp": "2018-10-12 17:45:44.583",
+        "review_text": "Excelente parque todas las actividades muy seguras, la comida con buen sabor, debes de tener buena condición física para realizar las tirolesa.",
+        "opinions_id": [127, 128, 129, 130, 131, 132, 133]
+    },
+    {
+        "review_source_id": 129,
+        "source_id": 100000,
+        "creation_timestamp": "2017-05-20 10:59:26.759",
+        "review_text": "Es increíble. Buffet excelente, buenas atracciones (tanto de día como de noche).",
+        "opinions_id": [134, 135, 136, 137, 138]
+    },
+    {
+        "review_source_id": 136,
+        "source_id": 100000,
+        "creation_timestamp": "2019-03-26 10:23:31.089",
+        "review_text": "Super divertido y hermoso. Su paseo por las cavernas y su paseo en tirolesa son lo mejor. La comida es espectacular y todo está en excelentes condiciones. Recomendable: llevar zapatos acuáticos y bloqueador solar biodegradable.",
+        "opinions_id": [139, 140, 141, 142, 143, 144, 145, 146, 147]
+    },
+    {
+        "review_source_id": 143,
+        "source_id": 100000,
+        "creation_timestamp": "2017-05-25 03:46:10.366",
+        "review_text": "Sitio para compartir buenas experiencias si quieres salir de la rutina, los anfibios, las tirolesas, la comida, todo es excelente, muy buena organización de parte del parque, recomendado llevar zapatos de agua para no sufrir por el calzado.",
+        "opinions_id": [148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160]
+    },
+    {
+        "review_source_id": 150,
+        "source_id": 100000,
+        "creation_timestamp": "2018-05-13 10:47:07.407",
+        "review_text": "Es una experiencia maravillosa. Visitar cancun es no perderse este tours. Buena adrenalina.",
+        "opinions_id": [161, 162, 163, 164, 165, 166, 167]
+    },
+    {
+        "review_source_id": 157,
+        "source_id": 100000,
+        "creation_timestamp": "2018-07-09 05:52:43.120",
+        "review_text": "Muy buen parque... Pero los pies me lastimaron por la banqueta de piedra y solo usábamos tenis para el agua.",
+        "opinions_id": [168, 169, 170, 171, 172, 173, 174]
+    },
+    {
+        "review_source_id": 164,
+        "source_id": 100000,
+        "creation_timestamp": "2019-04-21 01:28:04.012",
+        "review_text": "Este es el Parque temático que sin dudas debes visitar! las tirolesas están increíbles, es ideal para todos los amantes de las actividades al aire libre  Él bufete tiene una amplia variedad de platillos deliciosos!!   lleguen temprano para disfrutar de todas las actividades sin prisas",
+        "opinions_id": [175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185]
+    },
+    {
+        "review_source_id": 171,
+        "source_id": 100000,
+        "creation_timestamp": "2019-06-13 13:26:12.064",
+        "review_text": "Excelente parque, nos faltó tiempo para hacer todas las actividades lo recomiendo muchísimo todo muy bien el buffet, las actividades toda la gente muy servicial",
+        "opinions_id": [186, 187, 188, 189, 190, 191]
+    },
+    {
+        "review_source_id": 178,
+        "source_id": 100000,
+        "creation_timestamp": "2017-01-05 04:03:23.601",
+        "review_text": "Un lugar muy muy bonito para dejar la flojera hay actividades de  tirolesa nado en río subterráneo remo etc un lugar de ensieño",
+        "opinions_id": [192, 193, 194, 195, 196, 197, 198]
+    },
+    {
+        "review_source_id": 185,
+        "source_id": 100000,
+        "creation_timestamp": "2017-07-27 02:46:58.213",
+        "review_text": "Excelente atencio al visitante. Sus empleados son muy atentos y amables. Un parque ideal para practicar actividades de aventura.",
+        "opinions_id": [199, 200, 201, 202, 203, 204, 205]
+    },
+    {
+        "review_source_id": 192,
+        "source_id": 100000,
+        "creation_timestamp": "2019-06-11 05:33:54.118",
+        "review_text": "De los mejores lugares para ir en familia y disfrutar de un día lleno de aventura, el.buffet muy bueno",
+        "opinions_id": [206, 207, 208, 209, 210, 211]
+    },
+    {
+        "review_source_id": 199,
+        "source_id": 100000,
+        "creation_timestamp": "2018-09-18 06:45:23.604",
+        "review_text": "las cosas súper bien segura todo está muy bien conservado me gusta mucho que te den un información extra sobre el meteorito que cayó en la zona muy bien lo recomiendo súper",
+        "opinions_id": [212, 213, 214, 215, 216]
+    },
+    {
+        "review_source_id": 206,
+        "source_id": 100000,
+        "creation_timestamp": "2017-09-03 11:49:33.788",
+        "review_text": "Es muy bonito. Es para personas q le encantan las actividades extremas y los desafios. Cuenta con tirolesas? anfibios, etc",
+        "opinions_id": [217, 218, 219, 220, 221]
+    },
+    {
+        "review_source_id": 213,
+        "source_id": 100000,
+        "creation_timestamp": "2018-04-05 16:46:28.611",
+        "review_text": "Una maravilla,tanto por el entorno como por las actividades,cuidenlo,tanta riqueza no se debe ni desperdiciar ni estropear,gracias color,gracias México,un abrazo enorme desde España,volveremos.",
+        "opinions_id": [222, 223, 224, 225, 226, 227, 228, 229]
+    },
+    {
+        "review_source_id": 220,
+        "source_id": 100000,
+        "creation_timestamp": "2019-09-04 03:51:59.932",
+        "review_text": "Lo mejor de lo mejor. Demasiado entretenido de principio a fin. Calidad de instalaciones, actividades y comida. El personal muy atento y el servicio de fotografías es genial. Recomendado.",
+        "opinions_id": [230, 231, 232, 233, 234, 235, 236, 237, 238, 239]
+    },
+    {
+        "review_source_id": 227,
+        "source_id": 100000,
+        "creation_timestamp": "2018-11-05 10:22:51.353",
+        "review_text": "Fabuloso lugar para pasar una tarde y noche con todo incluído. Observarás estagnitas, ríos y selvas naturales",
+        "opinions_id": [240, 241, 242, 243, 244, 245]
+    },
+    {
+        "review_source_id": 234,
+        "source_id": 100000,
+        "creation_timestamp": "2018-02-09 06:23:56.024",
+        "review_text": "Me gustó mucho mi familia y yo lo disfrutamos. Parada obligatoria en Cancún",
+        "opinions_id": [246, 247, 248, 249]
+    },
+    {
+        "review_source_id": 241,
+        "source_id": 100000,
+        "creation_timestamp": "2018-07-20 06:03:11.354",
+        "review_text": "Divertido! Llega temprano, siempre falta tiempo para ver y hacer todas las actividades",
+        "opinions_id": [250, 251, 252, 253]
+    },
+    {
+        "review_source_id": 248,
+        "source_id": 100000,
+        "creation_timestamp": "2018-01-22 20:09:58.885",
+        "review_text": "Las experiencias son increíbles, la comida deliciosa y la atención del personal es buenísima! Los invito a que experimenten esa gran experiencia",
+        "opinions_id": [254, 255, 256, 257, 258, 259]
+    },
+    {
+        "review_source_id": 255,
+        "source_id": 100000,
+        "creation_timestamp": "2017-02-18 02:29:41.751",
+        "review_text": "¡No puedes perderte el recorrido de Tirolesas! Esta padrisimo, además son muy atentos en las indicaciones, lo único que no me agrado tanto fue el buffet, pero todas las demás atracciones están excelentes!",
+        "opinions_id": [260, 261, 262, 263, 264, 265, 266]
+    },
+    {
+        "review_source_id": 262,
+        "source_id": 100000,
+        "creation_timestamp": "2017-03-25 14:20:02.061",
+        "review_text": "Todo muy ágil para llegar y entrar a pesar de que llega mucha gente. Todos los que nos atendieron súper amables. Las instalaciones y el servicio excelentes, nos divertimos muchísimo. Nos hicieron sentir seguros. La comida bufet muy variada y rica.",
+        "opinions_id": [267, 268, 269, 270, 271, 272]
+    },
+
+
+
+
+
+        
+    {
+        "review_source_id": 2,
+        "source_id": 100001,
+        "creation_timestamp": "2019-08-18 02:34:58.649",
+        "review_text": "Si estas buscando un poco de aventura en tus vacaciones pues Hotel 1 es para ti. Pasaras un día espectacular con muchas cosas para hacer.",
+        "opinions_id": [273, 274, 275, 276, 277, 278, 279]
+    },
+    {
+        "review_source_id": 19,
+        "source_id": 100001,
+        "creation_timestamp": "2019-02-03 19:59:31.363",
+        "review_text": "Es una gran experiencia, al ser mexicanos y comprarlo con anticipación te dan descuento. Como salimos de Playa del Carmen no pagamos la transportación, nos fuimos en taxi. Muy divertido, se nos paso el tiempo volando.",
+        "opinions_id": [280, 281, 282, 283, 284, 285, 286, 287, 288]
+    },
+    {
+        "review_source_id": 16,
+        "source_id": 100001,
+        "creation_timestamp": "2019-11-01 02:43:32.911",
+        "review_text": "Me encanto El parque y su buffet,El servicio al cliente fue exelente y muy amables Todo El personal que trabaja en El parque",
+        "opinions_id": [289, 290, 291, 292, 293]
+    },
+    {
+        "review_source_id": 23,
+        "source_id": 100001,
+        "creation_timestamp": "2018-02-04 10:24:08.376",
+        "review_text": "Un parque muy bueno en todo, la atención y diversión muy bueno. Fuimos en familia con un nene de 6 años que pudo hacer todos los juegos, el restaurant muy bueno mucha variedad y muy buena calidad. La verdad súper recomendable",
+        "opinions_id": [294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305]
+    },
+    {
+        "review_source_id": 30,
+        "source_id": 100001,
+        "creation_timestamp": "2019-09-09 01:15:42.550",
+        "review_text": "Muy divertido lo disfrutamos mucho es de noche que el parque funciona creo que es lo mejor por que si de dia veo la altura de las tirolesas creo que no me lanzo",
+        "opinions_id": [306, 307, 308, 309, 310, 311]
+    },
+    {
+        "review_source_id": 37,
+        "source_id": 100001,
+        "creation_timestamp": "2017-11-20 13:35:08.787",
+        "review_text": "El lugar es muy lindo, la experiencia de las tirolesas y el agua es fascinante, buena organización, divertido y colorido.",
+        "opinions_id": [312, 313, 314, 315, 316, 317]
+    },
+    {
+        "review_source_id": 44,
+        "source_id": 100001,
+        "creation_timestamp": "2017-10-06 05:29:57.041",
+        "review_text": "Es el parque ke más me gusto . Fuimos en la noche y todo era bien decorado y muy bonito . La comida del buffet era rico y a todos nos gusto .",
+        "opinions_id": [318, 319, 320, 321, 322, 323]
+    },
+    {
+        "review_source_id": 51,
+        "source_id": 100001,
+        "creation_timestamp": "2018-09-25 22:00:26.195",
+        "review_text": "Nunca pensé que sería tan lindo, adrenalina, y más aún de noche. La tirolesa lo que más me gustó. Cuiden la llave del casillero, te la cobran por perderla",
+        "opinions_id": [324, 325, 326, 327, 328, 329, 330]
+    },
+    {
+        "review_source_id": 58,
+        "source_id": 100001,
+        "creation_timestamp": "2018-04-27 18:53:08.221",
+        "review_text": "Lo pasamos como niños, las tirolinas, los buggies y el rio de estalactitas lo mejor para nosotros. El buffet muy completo y bueno. El parque es muy grande y esta en plena naturaleza. A nosotros nos encantó.",
+        "opinions_id": [331, 332, 333, 334, 335, 336, 337, 338, 339]
+    },
+    {
+        "review_source_id": 65,
+        "source_id": 100001,
+        "creation_timestamp": "2017-05-09 11:49:00.484",
+        "review_text": "Amo este lugar la comida es exquisita y las actividades padrísimas definitivamente volveré y ya es mi segunda visita!!!! Un lugar que no te puedes perder si visitas la Riviera Maya 💕💕💕",
+        "opinions_id": [340, 341, 342, 343, 344, 345, 346, 347]
+    },
+    {
+        "review_source_id": 72,
+        "source_id": 100001,
+        "creation_timestamp": "2017-10-28 10:27:52.323",
+        "review_text": "De lo mejor que puedes visitar en el estado de Quintana Roo. La comida es excelente y las atracciones son muy buenas",
+        "opinions_id": [348, 349, 350, 351, 352, 353]
+    },
+
+
+
+
+
+    
+    {
+        "review_source_id": 1172,
+        "source_id": 100002,
+        "creation_timestamp": "2019-01-15 08:55:42.852",
+        "review_text": "Un hotel maravilloso buen servicio rodeado de centros comerciales muy buena ubicación . En el corazón de la ciudad de México. Alameda central. Bellas artes , torre latinoamericana . Excelente para eventos sociales",
+        "opinions_id": [354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367]
+    },
+    {
+        "review_source_id": 1549,
+        "source_id": 100002,
+        "creation_timestamp": "2019-11-01 14:51:56.855",
+        "review_text": "En varias ocasiones me he hospedado en este hotel y me gusta mucho la ubicación que tiene pero me gustaría que por el precio incluyeran desayuno y parqueo, que son dos servicios que hay que pagar extra.",
+        "opinions_id": [368, 369, 370, 371, 372, 373, 374, 375]
+    },
+    {
+        "review_source_id": 18316,
+        "source_id": 100002,
+        "creation_timestamp": "2019-03-17 11:44:20.148",
+        "review_text": "Lugar excelente. Existe relación entre costo y beneficio. El desayuno está delicioso.",
+        "opinions_id": [376, 377, 378, 379, 380, 381]
+    },
+    {
+        "review_source_id": 16823,
+        "source_id": 100002,
+        "creation_timestamp": "2017-07-13 19:14:06.284",
+        "review_text": "Super hotel. Desde su ingreso muchos detalles preciosos. Una limpieza extrema. Buen mantenimiento. Salones amplios. Rest. La terraza acogedora con ricos alimentos.",
+        "opinions_id": [382, 383, 384, 385, 386, 387, 388, 389, 390, 391, 392, 393]
+    },
+    {
+        "review_source_id": 18930,
+        "source_id": 100002,
+        "creation_timestamp": "2018-01-05 18:29:33.573",
+        "review_text": "+ Lo que más me gustó fue la calidez de los empleados, siempre atentos y cordiales.. - En principio me dieron una habitación con una vista terrible y la cama ni siquiera estaba bien hecha, pero me la cambiaron enseguida..",
+        "opinions_id": [394, 395, 396, 397, 398, 399, 400, 401]
+    },
+    {
+        "review_source_id": 17037,
+        "source_id": 100002,
+        "creation_timestamp": "2017-01-27 11:19:52.859",
+        "review_text": "Muy buen servicio, instalaciones muy cómodas, disfrutamos mucho nuestra estancia. El personal muy amable en todo momento, lo recomendamos ampliamente y son seguridad regresaremos en nuestra próxima visita a la ciudad.",
+        "opinions_id": [402, 403, 404, 405, 406, 407, 408, 409, 410]
+    },
+    {
+        "review_source_id": 12844,
+        "source_id": 100002,
+        "creation_timestamp": "2017-06-07 01:36:07.796",
+        "review_text": "Excelente hotel cuenta con todas las amenidades de la cadena Hilton y la atención es muy buena, la ubicación inmejorable museos y restaurantes muy cerca. Para tomar en cuenta los alrededores se han convertido un poco inseguros recomiendo no caminar por la noche en la zona.",
+        "opinions_id": [411, 412, 413, 414, 415, 416, 417, 418, 419, 420, 421, 422, 423]
+    },
+    {
+        "review_source_id": 15551,
+        "source_id": 100002,
+        "creation_timestamp": "2018-01-13 03:32:18.652",
+        "review_text": "+ Habitaciones limpias. - Las habitaciones son muy pequeñas.  Al caminar por los pasillos tiene una ligera inclinación que al estar en el centro de la ciudad pudiera ser causada por los efectos del temblor..",
+        "opinions_id": [424, 425, 426, 427, 428, 429, 430, 431, 432]
+    },
+    {
+        "review_source_id": 17558,
+        "source_id": 100002,
+        "creation_timestamp": "2019-09-05 21:59:20.887",
+        "review_text": "Excelente hotel en el corazón de la ciudad de México, amplias instalaciones, habitaciones cómodas y de muy buen tamaño. Decoración de muy buen gusto y seguridad las 24 horas. Si es por negocios o por placer es la mejor elección en la ciudad. Lujo y distinción dignos de la marca Hilton.",
+        "opinions_id": [433, 434, 435, 436, 437, 438, 439, 440, 441, 442, 443, 444, 445, 446, 447, 448, 449, 450, 451]
+    },
+    {
+        "review_source_id": 19265,
+        "source_id": 100002,
+        "creation_timestamp": "2018-02-06 17:29:01.714",
+        "review_text": "El centro de convenciones tiene diferentes  tamaños de salones, para diferentes tipos de eventos. Sus canapés son deliciosos igual que sus postres y muy buen café. El servicio excelente.",
+        "opinions_id": [452, 453, 454, 455, 456, 457, 458, 459, 460, 461, 462]
+    },
+    {
+        "review_source_id": 18272,
+        "source_id": 100002,
+        "creation_timestamp": "2018-10-16 23:43:31.540",
+        "review_text": "Un lugar  muy agradable, el salón  de eventos con buena atención únicamente la pista de baile  muy pequeña  para la cantidad  de personas que asistimos.",
+        "opinions_id": [463, 464, 465, 466, 467, 468, 469, 470, 471]
+    },
+    {
+        "review_source_id": 13179,
+        "source_id": 100002,
+        "creation_timestamp": "2018-06-14 14:53:27.519",
+        "review_text": "Tiene muy buena ubicación, sin duda. La atención del personal es muy amable, el gran pero es el pésimo aseo en habitaciones. ",
+        "opinions_id": [472, 473, 474, 475, 476, 477, 478]
+    },
+    {
+        "review_source_id": 15186,
+        "source_id": 100002,
+        "creation_timestamp": "2017-12-12 09:43:12.230",
+        "review_text": "Acudí solo a un evento académico y es muy funcional para este fin, con uso de tecnología audiovisual excelente y su personal muy profesional.",
+        "opinions_id": [479, 480, 481, 482, 483, 484]
+    },
+    {
+        "review_source_id": 16993,
+        "source_id": 100002,
+        "creation_timestamp": "2019-11-27 02:59:22.717",
+        "review_text": "Lugar muy elegante..para tus reuniones de trabajo o simplemente para tomar un café.. ambiente agradable.",
+        "opinions_id": [485, 486, 487, 488, 489, 490]
+    },
+    {
+        "review_source_id": 169100,
+        "source_id": 100002,
+        "creation_timestamp": "2019-04-13 17:18:38.273",
+        "review_text": "Hotel inteligente de gran calidad, cuenta con excelentes servicios, ubicado en el corazón cel centro histórico de la CDMX. Su ubicación permite realizar paseos peatonales por museos, plazas, parques, calles peatonales y conocer edificios históricos de la colonia, del porfirismo y modernos.?",
+        "opinions_id": [491, 492, 493, 494, 495, 496, 497, 498, 499, 500, 501, 502, 503, 504, 505]
+    },
+    {
+        "review_source_id": 199107,
+        "source_id": 100002,
+        "creation_timestamp": "2017-07-03 12:00:29.577",
+        "review_text": "Hay que admitir que no es un Hotel tan lujoso y elegante, es caro sólo por el nombre, ya que a diferencia del Regis, este Hotel se ve más sencillo y con decorados un tanto grises, sobrios y opacos. La atención es buena, y de hecho en la entrada son muy educados.",
+        "opinions_id": [506, 507, 508, 509, 510, 511, 512, 513, 514]
+    },
+    {
+        "review_source_id": 153114,
+        "source_id": 100002,
+        "creation_timestamp": "2018-04-01 20:16:18.894",
+        "review_text": "Un excelente lugar, ambiente, opciones para trabajo y placer.  Restaurante Terraza buen servicio, vista y ambiente.  Super lugar para trabajo y negocios tienen muchas opciones para interactuar.  Servicio de banquetes y eventos excelente.",
+        "opinions_id": [515, 516, 517, 518, 519, 520, 521, 522, 523, 524, 525, 526]
+    },
+    {
+        "review_source_id": 117121,
+        "source_id": 100002,
+        "creation_timestamp": "2018-03-06 18:08:37.690",
+        "review_text": "+ La ubicación y atención  del personal. - Para subir al piso 20 no funcionaban 2 de 4 elevadores.",
+        "opinions_id": [527, 528, 529, 530, 531]
+    },
+    {
+        "review_source_id": 157128,
+        "source_id": 100002,
+        "creation_timestamp": "2017-08-10 12:13:08.647",
+        "review_text": "El día que me espere en el hotel Hiltonde reforma fue la noche más espectacular que pude haber pasado en mi vida de video que las habitaciones el lobby la gente la comida de restaurante entre todo el ambiente y la calidez de su gente me…",
+        "opinions_id": [532, 533, 534, 535, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 546]
+    },
+    {
+        "review_source_id": 190135,
+        "source_id": 100002,
+        "creation_timestamp": "2019-04-24 17:35:37.712",
+        "review_text": "Únicamente voy a actividades académicas en el área de negocios y finanzas,pero ya le invitaron al área del alberca y está muy divertido, el estacionamiento es una complicación pues acordé a los precios del lugar. Lo recomiendo para finde año haciendo reservación previa.",
+        "opinions_id": [547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 557, 558]
+    },
+    {
+        "review_source_id": 191142,
+        "source_id": 100002,
+        "creation_timestamp": "2017-08-13 23:23:07.725",
+        "review_text": "Me encantó el servicio, acudí por un evento en uno de sus salones, los baños muy limpios y espaciosos, lindas instalaciones, el personal muy atento.",
+        "opinions_id": [559, 560, 561, 562, 563, 564, 565]
+    },
+    {
+        "review_source_id": 139149,
+        "source_id": 100002,
+        "creation_timestamp": "2017-04-27 14:29:15.120",
+        "review_text": "Precioso lugar las exposiciones las que ofrecen al público ,están padrísimas, un lugar muy tranquilo , cómodo y exclusivo. Muy recomendable!!!!",
+        "opinions_id": [566, 567, 568, 569]
+    },
+    {
+        "review_source_id": 158156,
+        "source_id": 100002,
+        "creation_timestamp": "2019-03-12 09:22:43.276",
+        "review_text": "Excelente trato y servicio, habitaciones muy amplias y limpias. Tienen un gimnasio muy bien equipado.",
+        "opinions_id": [570, 571, 572, 573, 574]
+    },
+    {
+        "review_source_id": 146163,
+        "source_id": 100002,
+        "creation_timestamp": "2017-02-01 16:29:38.267",
+        "review_text": "Desde que llegamos nos trataron espectacular, las habitaciones estaban listas y toda la gente fue muy amable durante toda la estadía. Un sitio muy bueno tanto para viajes y eventos corporativos como para viajes placer, pues además de estar muy bien ubicado en pleno centro de la ciudad, las instalaciones son de primera. Volvería siempre!",
+        "opinions_id": [575, 576, 577, 578, 579, 580, 581, 582, 583, 584, 585]
+    },
+    {
+        "review_source_id": 199170,
+        "source_id": 100002,
+        "creation_timestamp": "2018-02-16 02:02:13.595",
+        "review_text": "Excelente. Tuvimos un evento en el Salón Don Alberto el 23 de junio del 2019. Muchas gracias por el servicio.",
+        "opinions_id": [586, 587, 588, 589, 590, 591, 592, 593]
+    },
+    {
+        "review_source_id": 104177,
+        "source_id": 100002,
+        "creation_timestamp": "2018-02-05 05:25:33.981",
+        "review_text": "Impresionante servicio por parte de Patricia, me peinó para mi graduación y lo hizo excelente. ¡Tiene una increíble facilidad para peinar! Realmente logró lo que yo quería y en un tiempo récord.Altamente recomendada.",
+        "opinions_id": [594, 595, 596, 597, 598, 599, 600, 601]
+    },
+    {
+        "review_source_id": 103184,
+        "source_id": 100002,
+        "creation_timestamp": "2017-03-06 19:02:47.909",
+        "review_text": "Pues visité restaurante El cardenal, mi opinión es un restaurante cocina tradicional mexicana buen servicio y buena comida, el pan es recién hecho, te ofrecen natas y chocolate",
+        "opinions_id": [602, 603, 604, 605, 606, 607, 608, 609, 610, 611, 612]
+    },
+    {
+        "review_source_id": 135191,
+        "source_id": 100002,
+        "creation_timestamp": "2017-01-13 11:15:02.964",
+        "review_text": "El aseo en las habitaciones deja muchísimo que desear. En el baño de la habitación 2422 encontré vello púbico en el inodoro sin siquiera haberlo usado, pero lo más asqueroso fue encontrar fluidos corporales (mocos) en la bata que supuestamente debería estar recién lavada. ¡Qué experiencia tan desagradable!",
+        "opinions_id": [613, 614, 615, 616, 617, 618, 619, 620, 621, 622, 623, 624]
+    }
+]

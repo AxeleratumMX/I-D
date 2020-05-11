@@ -1,0 +1,9 @@
+README.md
+setup.py
+vili/__init__.py
+vili/security/__init__.py
+vili/security/ms_authorization.py
+vili_ia.egg-info/PKG-INFO
+vili_ia.egg-info/SOURCES.txt
+vili_ia.egg-info/dependency_links.txt
+vili_ia.egg-info/top_level.txt

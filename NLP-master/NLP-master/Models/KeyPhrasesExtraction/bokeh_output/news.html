@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Sentence embedding example</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.1.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.1.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-1.1.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="d308b8f7-9ff3-4937-88ec-b6327cae4371" data-root-id="1036"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1110">
+          {"393e1958-349b-435e-a207-ce7135972a11":{"roots":{"references":[{"attributes":{},"id":"1014","type":"LinearScale"},{"attributes":{"args":{"div":{"id":"1035","type":"Div"},"sentences":["Minatitl\u00e1n.","Al entrar hoy en operaciones la primera coordinaci\u00f3n de la Guardia Nacional en este municipio veracruzano, elementos del Ej\u00e9rcito y de la Polic\u00eda Federal, portando la insignia de la nueva corporaci\u00f3n, montaron operativos de revisi\u00f3n en diversas calles, adem\u00e1s de realizar patrullajes.","A\u00fan con sus uniformes castrenses y policiacos, en cada caso, efect\u00faan revisiones en veh\u00edculos y verifican documentos de choferes.","Sobre la avenida Benito Ju\u00e1rez, colonia Cerro Alto, sobre todo en camionetas y taxis.","En su conferencia ma\u00f1anera, el Presidente Andr\u00e9s Manuel L\u00f3pez Obrador anunci\u00f3 el arranque de la Guardia Nacional en este municipio, con la primera coordinaci\u00f3n, de 266 que habr\u00e1 en el pa\u00eds.","Luego se har\u00e1 lo propio en Salina Cruz y Coatzacoalcos, en el sur de la entidad, as\u00ed como en Canc\u00fan, Quintana Roo, puntos en los que se requiere con m\u00e1s urgencia a la corporaci\u00f3n, dijo.","Antes de viajar a ese municipio, en el inicio de una gira por la regi\u00f3n del Istmo de Tehuantepec, dijo que aunque todav\u00eda no hay leyes secundarias, la reforma constitucional permite al gobierno iniciar con la instalaci\u00f3n de bases para la guardia.","Entonces, la primera que se establece ya con el n\u00famero de elementos suficientes con mando \u00fanico va a ser la de Minatitl\u00e1n, el d\u00eda de hoy, se\u00f1al\u00f3 en la conferencia de prensa matutina en la que estuvo acompa\u00f1ado por el secretario de la Defensa Nacional, Luis Cresencio Sandoval, y el titular de la Secretar\u00eda de Comunicaciones y Transportes, entre otros.","Agradeci\u00f3 en ese punto a los legisladores que convocar\u00e1n a un periodo extraordinario de sesiones para la aprobaci\u00f3n de las leyes secundarias para la Guardia Nacional.","Pero s\u00ed, en efecto, hoy se va a dar a conocer la estrategia de seguridad en Mitatitl\u00e1n, que es la primera coordinaci\u00f3n.","Y tambi\u00e9n en Minatitl\u00e1n vamos a dar respuesta a la demanda de seguridad.","Me va a acompa\u00f1ar el gabinete de seguridad y se va a presentar un plan para proteger a la poblaci\u00f3n en el marco del funcionamiento de la Guardia Nacional","Se\u00f1al\u00f3 que la visita de hoy al sur de Veracruz ya estaba programada desde antes de los sucesos lamentables en Minatitl\u00e1n (el viernes 19 de abril un grupo armado mat\u00f3 a 13 personas que se hallaban en una fiesta).","El encuentro de hoy, coment\u00f3, es con todo el pueblo, en la plaza p\u00fablica y desde luego vamos a expresar nuestro m\u00e1s sentido p\u00e9same, ya lo hemos hecho, a los familiares de las v\u00edctimas.","Y vamos a eso, a que se investigue, se castigue a los responsables y haya justicia.","Por eso, agreg\u00f3, la reuni\u00f3n que ten\u00eda como prop\u00f3sito original los programas de Bienestar se ampl\u00eda y ahora se va a tratar tambi\u00e9n el tema de la violencia y lo que se est\u00e1 haciendo al respecto.","El mandatario ir\u00e1 el s\u00e1bado a Coatzacoalcos, Veracruz y Salina Cruz, as\u00ed como Mat\u00edas Romero y Juchit\u00e1n, Oaxaca, para revisar las obras del Tren Trans\u00edtsmico, as\u00ed como todo el proyecto social en la regi\u00f3n."],"source":{"id":"1001","type":"ColumnDataSource"}},"code":"\n        var inds = source.selected.indices\n        div.text = \"\"\n        for (var i = 0; i &lt; sentences.length; i++) {\n            if (inds.includes(i)) {\n                div.text += '&lt;p style=\"background-color:powderblue;\"&gt;' + sentences[i] + \"&lt;/p&gt;\"\n            }\n            else {\n                div.text += \"&lt;p&gt;\" + sentences[i] + \"&lt;/p&gt;\"\n            }   \n        }\n    "},"id":"1037","type":"CustomJS"},{"attributes":{"width":400},"id":"1035","type":"Div"},{"attributes":{"callback":null},"id":"1010","type":"DataRange1d"},{"attributes":{},"id":"1039","type":"BasicTickFormatter"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1002","type":"HoverTool"},{"id":"1003","type":"ResetTool"},{"id":"1004","type":"BoxSelectTool"}]},"id":"1026","type":"Toolbar"},{"attributes":{"callback":null},"id":"1008","type":"DataRange1d"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1045","type":"BoxAnnotation"},{"attributes":{"dimension":1,"ticker":{"id":"1022","type":"BasicTicker"}},"id":"1025","type":"Grid"},{"attributes":{},"id":"1041","type":"BasicTickFormatter"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{},"id":"1043","type":"UnionRenderers"},{"attributes":{"children":[{"id":"1005","subtype":"Figure","type":"Plot"},{"id":"1035","type":"Div"}]},"id":"1036","type":"Row"},{"attributes":{"ticker":{"id":"1017","type":"BasicTicker"}},"id":"1020","type":"Grid"},{"attributes":{},"id":"1044","type":"Selection"},{"attributes":{"fill_alpha":{"value":0.5},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"eigenv1"},"y":{"field":"eigenv2"}},"id":"1032","type":"Circle"},{"attributes":{"data_source":{"id":"1001","type":"ColumnDataSource"},"glyph":{"id":"1031","type":"Circle"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1032","type":"Circle"},"selection_glyph":null,"view":{"id":"1034","type":"CDSView"}},"id":"1033","type":"GlyphRenderer"},{"attributes":{"below":[{"id":"1016","type":"LinearAxis"}],"center":[{"id":"1020","type":"Grid"},{"id":"1025","type":"Grid"}],"left":[{"id":"1021","type":"LinearAxis"}],"renderers":[{"id":"1033","type":"GlyphRenderer"}],"title":{"id":"1006","type":"Title"},"toolbar":{"id":"1026","type":"Toolbar"},"x_range":{"id":"1008","type":"DataRange1d"},"x_scale":{"id":"1012","type":"LinearScale"},"y_range":{"id":"1010","type":"DataRange1d"},"y_scale":{"id":"1014","type":"LinearScale"}},"id":"1005","subtype":"Figure","type":"Plot"},{"attributes":{"axis_label":"2nd eigenv","formatter":{"id":"1039","type":"BasicTickFormatter"},"ticker":{"id":"1022","type":"BasicTicker"}},"id":"1021","type":"LinearAxis"},{"attributes":{},"id":"1017","type":"BasicTicker"},{"attributes":{"callback":{"id":"1037","type":"CustomJS"},"data":{"eigenv1":[0.2121498904956507,-0.10841187855775901,-0.0855600398166001,0.13311110334409862,0.032578654804383295,-0.013059278889966136,-0.11891155262579198,-0.1592907897327629,0.013191418260053465,0.06101426987411973,0.13047951357760162,0.009187444566051448,-0.08654621058927095,-0.04299830984126082,0.1164377598541339,-0.0889209455773119,-0.004451049145368957],"eigenv2":[0.013653200554652856,-0.013877449493910708,0.3216653733567668,0.021755944929483358,-0.020722267368442262,-0.02218035123806007,-0.03713401013181801,-0.06821151797456626,-0.017024406045261932,-0.011534506230322922,-0.002352163705404644,-0.02268337888153117,-0.03209795555603603,-0.029994727211017622,-0.007996499970486248,-0.039291169790275714,-0.03197411524376934],"s":["Minatitl\u00e1n.","Al entrar hoy en operaciones la primera coordinaci\u00f3n de la Guardia Nacional en este municipio veracruzano, elementos del Ej\u00e9rcito y de la Polic\u00eda Federal, portando la insignia de la nueva corporaci\u00f3n, montaron operativos de revisi\u00f3n en diversas calles, adem\u00e1s de realizar patrullajes.","A\u00fan con sus uniformes castrenses y policiacos, en cada caso, efect\u00faan revisiones en veh\u00edculos y verifican documentos de choferes.","Sobre la avenida Benito Ju\u00e1rez, colonia Cerro Alto, sobre todo en camionetas y taxis.","En su conferencia ma\u00f1anera, el Presidente Andr\u00e9s Manuel L\u00f3pez Obrador anunci\u00f3 el arranque de la Guardia Nacional en este municipio, con la primera coordinaci\u00f3n, de 266 que habr\u00e1 en el pa\u00eds.","Luego se har\u00e1 lo propio en Salina Cruz y Coatzacoalcos, en el sur de la entidad, as\u00ed como en Canc\u00fan, Quintana Roo, puntos en los que se requiere con m\u00e1s urgencia a la corporaci\u00f3n, dijo.","Antes de viajar a ese municipio, en el inicio de una gira por la regi\u00f3n del Istmo de Tehuantepec, dijo que aunque todav\u00eda no hay leyes secundarias, la reforma constitucional permite al gobierno iniciar con la instalaci\u00f3n de bases para la guardia.","Entonces, la primera que se establece ya con el n\u00famero de elementos suficientes con mando \u00fanico va a ser la de Minatitl\u00e1n, el d\u00eda de hoy, se\u00f1al\u00f3 en la conferencia de prensa matutina en la que estuvo acompa\u00f1ado por el secretario de la Defensa Nacional, Luis Cresencio Sandoval, y el titular de la Secretar\u00eda de Comunicaciones y Transportes, entre otros.","Agradeci\u00f3 en ese punto a los legisladores que convocar\u00e1n a un periodo extraordinario de sesiones para la aprobaci\u00f3n de las leyes secundarias para la Guardia Nacional.","Pero s\u00ed, en efecto, hoy se va a dar a conocer la estrategia de seguridad en Mitatitl\u00e1n, que es la primera coordinaci\u00f3n.","Y tambi\u00e9n en Minatitl\u00e1n vamos a dar respuesta a la demanda de seguridad.","Me va a acompa\u00f1ar el gabinete de seguridad y se va a presentar un plan para proteger a la poblaci\u00f3n en el marco del funcionamiento de la Guardia Nacional","Se\u00f1al\u00f3 que la visita de hoy al sur de Veracruz ya estaba programada desde antes de los sucesos lamentables en Minatitl\u00e1n (el viernes 19 de abril un grupo armado mat\u00f3 a 13 personas que se hallaban en una fiesta).","El encuentro de hoy, coment\u00f3, es con todo el pueblo, en la plaza p\u00fablica y desde luego vamos a expresar nuestro m\u00e1s sentido p\u00e9same, ya lo hemos hecho, a los familiares de las v\u00edctimas.","Y vamos a eso, a que se investigue, se castigue a los responsables y haya justicia.","Por eso, agreg\u00f3, la reuni\u00f3n que ten\u00eda como prop\u00f3sito original los programas de Bienestar se ampl\u00eda y ahora se va a tratar tambi\u00e9n el tema de la violencia y lo que se est\u00e1 haciendo al respecto.","El mandatario ir\u00e1 el s\u00e1bado a Coatzacoalcos, Veracruz y Salina Cruz, as\u00ed como Mat\u00edas Romero y Juchit\u00e1n, Oaxaca, para revisar las obras del Tren Trans\u00edtsmico, as\u00ed como todo el proyecto social en la regi\u00f3n."]},"selected":{"id":"1044","type":"Selection"},"selection_policy":{"id":"1043","type":"UnionRenderers"}},"id":"1001","type":"ColumnDataSource"},{"attributes":{"text":"Guardia nacional"},"id":"1006","type":"Title"},{"attributes":{},"id":"1022","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["index","$index"],["(x,y)","@eigenv1, @eigenv2)"],["s","@s"]]},"id":"1002","type":"HoverTool"},{"attributes":{"callback":null,"overlay":{"id":"1045","type":"BoxAnnotation"}},"id":"1004","type":"BoxSelectTool"},{"attributes":{"source":{"id":"1001","type":"ColumnDataSource"}},"id":"1034","type":"CDSView"},{"attributes":{},"id":"1003","type":"ResetTool"},{"attributes":{"axis_label":"1st eigenv","formatter":{"id":"1041","type":"BasicTickFormatter"},"ticker":{"id":"1017","type":"BasicTicker"}},"id":"1016","type":"LinearAxis"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"units":"screen","value":10},"x":{"field":"eigenv1"},"y":{"field":"eigenv2"}},"id":"1031","type":"Circle"}],"root_ids":["1036"]},"title":"Bokeh Application","version":"1.1.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1110').textContent;
+                  var render_items = [{"docid":"393e1958-349b-435e-a207-ce7135972a11","roots":{"1036":"d308b8f7-9ff3-4937-88ec-b6327cae4371"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

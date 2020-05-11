@@ -1,0 +1,11 @@
+[{
+    "type_id": 10000,
+    "name": "Google reviews",
+    "icon": "https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png"
+},
+{
+    "type_id": 10001,
+    "name": "Tripadvisor",
+    "icon": "https://www.freeiconspng.com/uploads/tripadvisor-icon-1.png"
+}]
+

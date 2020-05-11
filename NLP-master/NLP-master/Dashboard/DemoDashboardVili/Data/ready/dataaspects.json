@@ -1,0 +1,42 @@
+[{
+    "id": 1000,
+    "establishment_id": 10,
+    "name": "Comida"
+},
+{
+    "id": 1001,
+    "establishment_id": 10,
+    "name": "Servicio"
+},
+{
+    "id": 1002,
+    "establishment_id": 10,
+    "name": "Entretenimiento"
+},
+{
+    "id": 1003,
+    "establishment_id": 10,
+    "name": "Precio"
+},
+{
+    "id": 1004,
+    "establishment_id": 10,
+    "name": "Ambiente"
+},
+
+{
+    "id": 1005,
+    "establishment_id": 11,
+    "name": "Restaurante"
+},
+{
+    "id": 1006,
+    "establishment_id": 11,
+    "name": "Servicio"
+},
+{
+    "id": 1007,
+    "establishment_id": 11,
+    "name": "Cuartos"
+}
+]

@@ -1,0 +1,4 @@
+#Requirements for BERTSentiments
+xlrd
+xlwt
+sklearn

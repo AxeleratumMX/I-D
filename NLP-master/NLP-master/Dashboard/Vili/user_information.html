@@ -1,0 +1,164 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="./dist/bootstrap.bundle.js"></script>
+	<script src="./dist/vue.bundle.js"></script>
+	<script src="./dist/general.bundle.js"></script>
+	<script src="./dist/node_vendors.bundle.js"></script>
+
+
+	<title>Información de usuario</title>
+
+</head>
+
+<body>
+
+	<div id="navbar">
+		<navbar :active_item="active_item"></navbar>
+	</div>
+
+
+	<div class="container mt-3">
+
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				<div class="d-flex justify-content-center">
+					<img src="/dist/img/default_avatar.jpg" class="rounded-circle float-left" width="200px"
+						height="200px">
+				</div>
+			</div>
+
+			<div class="col-sm-12 col-md-8 mt-5">
+				<div class="d-flex justify-content-center">
+					<h4>Empresa de prueba</h4>
+				</div>
+				<div class="d-flex justify-content-center">
+					<p class="text-break text-muted">Calle de Empresa 80, San Juan, 03920 San Juan, CDMX</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row mb-3">
+			<div class="col-sm-12 mt-3">
+				<div class="card">
+					<div class="card-header">
+						Información de cliente (ID: 52678)
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<div class="card-body">
+								<h6 class="card-title">Nombre de la empresa</h6>
+								<p class="card-text">Empresa de prueba</p>
+							</div>
+						</li>
+						<li class="list-group-item">
+							<div class="card-body">
+								<h6 class="card-title">Correo electrónico</h6>
+								<p class="card-text">prueba@prueba.com</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-sm-12 mt-3">
+				<div class="card">
+					<div class="card-header">
+						Establecimientos
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<div id="establishments_table" class="card-body">
+									<datatable 
+										:columns="columns" 
+										:data-key="data_key" 
+										:pages-range="2"
+										:current-page-key="current_page_key"
+										:total-pages-key="total_pages_key"
+										:table-height="200"
+										ref="establishments_datatable"
+									></datatable>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-sm-12 mt-3">
+				<div class="card">
+					<div class="card-header">
+						Cuota
+					</div>
+					<ul class="list-group list-group-flush">
+						<li class="list-group-item">
+							<div class="card-body">
+								<h6 class="card-title">Información utilizada</h6>
+								<div class="progress">
+									<div class="progress-bar bg-success" role="progressbar" style="width: 25%"
+										aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+	</div>
+
+	<!-- Modals -->
+	<div class="modal fade" id="establishment_info" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-xl" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Estamblecimiento X</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="card col-sm-12">
+						<ul class="list-group list-group-flush">
+							<li class="list-group-item">
+								<div class="card-body">
+									<h6 class="card-title">Dirección</h6>
+									<p class="text-break text-muted">Calle de Empresa 80, San Juan, 03920 San Juan, CDMX</p>
+								</div>
+							</li>
+							<li class="list-group-item">
+									<div class="card-body">
+										<h6 class="card-title">Aspectos</h6>
+										<p class="card-text">
+											<span class="badge badge-pill badge-primary">Comida</span>
+											<span class="badge badge-pill badge-primary">Servicio</span>
+											<span class="badge badge-pill badge-primary">Ambiente</span>
+	
+										</p>
+									</div>
+								</li>
+							<li class="list-group-item">
+								<div class="card-body">
+									<h6 class="card-title">Fuentes</h6>
+									<p class="card-text">Facebook, Twitter</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Aceptar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./dist/user_information.bundle.js"></script>
+
+</body>
+
+</html>

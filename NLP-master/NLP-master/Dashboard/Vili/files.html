@@ -1,0 +1,85 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="./dist/bootstrap.bundle.js"></script>
+	<script src="./dist/vue.bundle.js"></script>
+	<script src="./dist/general.bundle.js"></script>
+	<script src="./dist/node_vendors.bundle.js"></script>
+	
+	
+	<title>Archivos</title>
+
+</head>
+
+<body>
+
+	<div id="navbar">
+		<navbar :active_item="active_item"></navbar>
+	</div>
+
+
+	<div class="container mt-3">
+		<div class="row mb-5">
+			<div class="col-sm-12 offset-sm-0">
+				<div class="d-flex justify-content-center">
+					<button type="button" class="btn btn-primary btn-dark btn-lg" data-toggle="modal" data-target="#upload_file">
+						<span class="material-icons">cloud_upload</span>
+					</button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="row">
+			
+
+			<div id="files_table" class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
+
+				<datatable 
+					:columns="columns" 
+					:data-key="data_key" 
+					:pages-range="2"
+					:current-page-key="current_page_key"
+					:total-pages-key="total_pages_key"
+					:table-height="300"
+					ref="files_datatable"
+				></datatable>
+			</div>
+
+		</div>
+	
+	</div>
+
+	<!-- Modals -->
+	<div class="modal fade" id="upload_file" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Subir archivo</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="input-group mb-3">
+						<div class="custom-file">
+							<input type="file" class="custom-file-input" id="upload_file_picker">
+							<label class="custom-file-label" for="upload_file_picker">Seleccionar archivo</label>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+					<button type="button" class="btn btn-primary">Subir archivo</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./dist/files.bundle.js"></script>
+
+</body>
+
+</html>

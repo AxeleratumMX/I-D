@@ -1,0 +1,9 @@
+{
+    
+    "CREATE_LOG_TABLE_QUERY": " CREATE TABLE authentication_log( user text, action text, status text, timestamp text, log text, ip text, browser text, os text, channel text, validation_token text, refresh_token text, expiration_timestamp text )",
+    "CREATE_USER_TABLE_QUERY": "CREATE TABLE user( user_id int, user text)",
+    "CREATE_TOKEN_TABLE_QUERY": "CREATE TABLE user_token( user_id int, channel_id int, validation_token text, refresh_token text, expiration_timestamp text, FOREIGN KEY (user_id) REFERENCES user(user_id) )",
+    "CREATE_SCOPE_TABLE_QUERY": "CREATE TABLE scope( scope_id int, path text )",
+    "CREATE_USER_SCOPE_TABLE_QUERY": "CREATE TABLE user_scope( user_id int, scope_id int, FOREIGN KEY (user_id) REFERENCES user(user_id), FOREIGN KEY (scope_id) REFERENCES scope(user_id) )"
+
+}

@@ -1,0 +1,4 @@
+rey 
+reina 
+hombre
+mujer

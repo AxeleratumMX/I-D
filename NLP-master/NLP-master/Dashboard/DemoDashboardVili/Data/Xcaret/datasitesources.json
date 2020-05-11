@@ -1,0 +1,23 @@
+[
+    {
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "source_id": "8c31a8cc-5052-5267-a05b-0a0a49b21eb6",
+        "source_type_id": "8c31a8cc-5052-5267-a05b-0a0a49b21eb6",
+        "retrieve_url": "https://www.facebook.com/XcaretPark/",
+        "site_url": "https://www.facebook.com/XcaretPark/"
+    },
+    {
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "source_id": "37647c45-10f3-577b-9fd1-653e7ddd6d02",
+        "source_type_id": "37647c45-10f3-577b-9fd1-653e7ddd6d02",
+        "retrieve_url": "https://www.tripadvisor.com.mx/Attraction_Review-g150812-d4882791-Reviews-Xplor_Park_by_Xcaret-Playa_del_Carmen_Yucatan_Peninsula.html",
+        "site_url": "https://www.tripadvisor.com.mx/Attraction_Review-g150812-d4882791-Reviews-Xplor_Park_by_Xcaret-Playa_del_Carmen_Yucatan_Peninsula.html"
+    },
+    {
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "source_id": "e7e91ccd-be4b-5ea7-878c-5bfa8f1bdf10",
+        "source_type_id": "e7e91ccd-be4b-5ea7-878c-5bfa8f1bdf10",
+        "retrieve_url": "https://www.google.com.mx/maps/place/Xcaret/@20.5809134,-87.1218867,17z/data=!3m1!4b1!4m14!1m6!3m5!1s0x8f4e446dadd87053:0x8042e81e921809a5!2sXcaret!8m2!3d20.5809129!4d-87.1196978!3m6!1s0x8f4e446dadd87053:0x8042e81e921809a5!8m2!3d20.5809129!4d-87.1196978!9m1!1b1",
+        "site_url": "https://www.google.com.mx/maps/place/Xcaret/@20.5809134,-87.1218867,17z/data=!3m1!4b1!4m14!1m6!3m5!1s0x8f4e446dadd87053:0x8042e81e921809a5!2sXcaret!8m2!3d20.5809129!4d-87.1196978!3m6!1s0x8f4e446dadd87053:0x8042e81e921809a5!8m2!3d20.5809129!4d-87.1196978!9m1!1b1"
+    },
+]

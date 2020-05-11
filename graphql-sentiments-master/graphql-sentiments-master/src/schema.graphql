@@ -1,0 +1,58 @@
+type Review{
+  id: String
+  text: String
+  context: String
+  hash: String
+  stars:Int
+  publishingDate: DateTime
+  establishment: Establishment @relation(name: "BELONGS_TO", direction: "OUT")
+  source: Source @relation(name: "EXTRACTED_FROM", direction: "OUT")
+  opinion: [Opinion] @relation(name: "CONTAINS", direction: "OUT")
+}
+
+type Establishment{
+  id: String
+  reviews: [Review] @relation(name: "BELONGS_TO", direction: "IN")
+}
+
+type Source{
+  id: String
+  type: String
+  name: String
+  url: String
+  icon: String
+  reviews: [Review] @relation(name: "EXTRACTED_FROM", direction: "IN")
+}
+
+type Opinion{
+  id: ID!
+  processingDate: DateTime
+  review: Review @relation(name: "CONTAINS", direction: "IN")
+  target: Target @relation(name: "TALKS_ABOUT", direction: "OUT")
+}
+
+type Target{
+  id: ID!
+  name: String
+  opinions: [Opinion] @relation(name: "TALKS_ABOUT", direction: "IN")
+  sentiment: Sentiment @relation(name: "SAYS", direction: "OUT")
+}
+
+type Sentiment{
+  id:ID!
+  text: String
+  targets: [Target] @relation(name: "SAYS", direction: "IN")
+  polarities: SentimentPolarity
+}
+
+type SentimentPolarity @relation(name: "SCORED"){
+  from: Sentiment
+  to: Polarity
+  score: Float
+}
+
+type Polarity{
+  id:ID!
+  name: String
+  sentiments: [SentimentPolarity]
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "id": "c095ee77-d7f3-564c-adea-713802fe5d5e",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "ubicación",
+		"icon": "https://static.thenounproject.com/png/14236-200.png"
+    },
+    {
+        "id": "c5c4b58f-e28e-5f5a-8d59-9c14605f0fdb",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "restaurante",
+		"icon":"https://icon-library.net/images/icon-restaurant/icon-restaurant-0.jpg"
+    },
+    {
+        "id": "016714bf-3984-5d9b-af14-713cd40df24e",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "servicio",
+		"icon": "https://www.healthwithheart.com/wp-content/uploads/2017/03/service-icon-2.png"
+    },
+    {
+        "id": "01e2a0f3-b934-5287-83ff-7d997f04b87b",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "entretenimiento",
+		"icon": "https://static.thenounproject.com/png/741374-200.png"
+    },
+    {
+        "id": "fa55fed2-f56f-5a98-928f-18f02777ddb8",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "ambiente",
+		"icon": "https://www.shareicon.net/data/512x512/2016/08/07/808334_flower_512x512.png"
+    },
+    {
+        "id": "dbb7baad-68d9-5fe0-8b96-426b47f52cb7",
+        "establishment_id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "limpieza",
+		"icon": "https://image.flaticon.com/icons/png/512/601/601770.png"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "fc1bcff5-24e8-4e7e-92d1-160a88fd775f",
+        "name": "Xcaret",
+        "category_id": 100,
+        "location": {
+            "continent": "North America",
+            "country": "México",
+            "state": "Quintana Roo",
+            "city": "Cancún",
+            "zip_code": "77710",
+            "latitude": 20.5844794,
+            "longitude": -87.1262912,
+            "creation_timestamp": "2019-10-15 11:57:20.078"
+        }
+    }
+]

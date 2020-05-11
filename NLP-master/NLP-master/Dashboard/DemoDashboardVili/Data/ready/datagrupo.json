@@ -1,0 +1,10 @@
+[{
+    "id": 1,
+    "name": "Hotel 1",
+    "establishments": [10]
+},
+{
+    "id": 2,
+    "name": "Hotel 2",
+    "establishments": [11]
+}]

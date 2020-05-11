@@ -1,0 +1,34 @@
+language: python
+sudo: false
+cache: pip
+
+matrix:
+  include:
+  - python: 2.7
+    env: TOXENV=py27,flask,py27-django
+  - python: 3.5
+    env: TOXENV=py35,flask,py35-django
+  - python: 3.6
+    env: TOXENV=py36,flask,py36-django
+  - python: 3.7
+    dist: xenial
+    sudo: true
+    env: TOXENV=py37,flask,py37-django
+
+install:
+  - pip install -U setuptools
+  - pip install tox
+
+before_script:
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+
+script: tox
+
+after_success:
+  - TOXENV=codecov tox
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+
+notifications:
+  email: false

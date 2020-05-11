@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vili-ia
+Version: 0.0.1
+Summary: Vili's microservices auto-authorization
+Home-page: https://github.com/axeleratum/NLP/Libraries/
+Author: Uriel Corona
+Author-email: uriel@axeleratum.com
+License: UNKNOWN
+Description: Definying
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

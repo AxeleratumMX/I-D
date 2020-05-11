@@ -1,0 +1,161 @@
+# Group Oauth2
+
+The *Oauth2* API allow us to been authenticated and authorized through oauth2 servers and get permissions to make calls to other APIs  **This API is the first step to make call to any other API** Next operations are allowed inside this API:
+
++ Signup.
++ Authorize.
++ Token.
+
+## Oauth2 [/v0/oauth2/]
+### Signup [POST /v0/oauth2/signup]
+
+This action is used for signup a new user. 
+
++ Request (application/json)
+    + Attributes (Oauth2SignupReq)
+
++ Response 201 (application/json)
++ Response 400 (application/json)
+    + Attributes (Oauth2SignupBadRequest)
++ Response 403 (application/json)
+    + Attributes (Oauth2SignupForbidden)
++ Response 500 (application/json)
+    + Attributes (Oauth2SignupInternalError)
+### Authorize [GET /v0/oauth2/authorize]
+
+This action is used for signup a new user. 
+
++ Request (application/json)
+    + Attributes (Oauth2AuthorizeReq)
+
++ Response 201 (application/json)
+    + Attributes (Oauth2AuthrorizeResponse)
++ Response 302 (application/json)
+    + Attributes (Oauth2AuthorizeRedirect1)
++ Response 302 (application/json)
+    + Attributes (Oauth2AuthorizeRedirect2)
++ Response 302 (application/json)
+    + Attributes (Oauth2AuthorizeRedirect3)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Token [POST /v0/oauth2/token]
+
+This action is used for signup a new user. 
+
++ Request Password (application/json)
+    + Attributes (Oauth2TokenPasswordReq)
+
++ Request Authorization Code (application/json)
+    + Attributes (Oauth2TokenAuthorizationCodeReq)
+
++ Request Refresh Token (application/json)
+    + Attributes (Oauth2TokenRefreshTokenReq)
+
++ Response 400 (application/json)
+    + Attributes (Oauth2TokenBadRequest)
++ Response 401 (application/json)
+    + Attributes (Oauth2TokenUnauthorized)
++ Response 500 (application/json)
+    + Attributes (Oauth2TokenInternalError)
+
+## Data Structures
+
+### Oauth2SignupReq
++ email: `your@mail.com` (string, required) - The user email.
++ password: `Y0urp4ssw0rd-` (string, required) - The user password.
++ passwordConfirmation: `Y0urp4ssw0rd-` (string, required) - The user confirmation password.
++ name: `name` (string, required) - The user name.
+
+### Oauth2SignupForbidden
++ statusCode: 403 (number, required) - The error code.
++ error: Forbidden (string, required) - A description of the error code.
++ message: Email already registered (string, required) - The cause of the error.
+
+### Oauth2SignupBadRequest
++ statusCode: 400 (number, required) - The error code.
++ error: Bad Request (string, required) - A description of the error code.
++ message (array[Oauth2SignupBadRequestMessage], required) - The list of errors.
+
+### Oauth2SignupBadRequestMessage
++ target (Oauth2SignupReq, required) - The sent body.
++ value: Y0urp4ssw0rd. (string, required) - The value of the invalid property.
++ property: password (string, required) - The invalid property name.
++ constraints (array[Oauth2SignupConstraints], required) - The constraints that property must have.
+
+### Oauth2SignupConstraints
++ matches: Password and confirmation doesn't match. (string, required) - The constraint that isn't accomplished.
+
+### Oauth2SignupInternalError
++ statusCode: 500 (number, required) - The error code.
++ error: Internal Server Error (string, required) - A description of the error code.
+
+### Oauth2AuthorizeReq
++ `token_id`: `eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3YWEzMGY3MS05ZDFjLTRlZTQtODYwMi1hYjk0YjM0MzdjMmQiLCJpc3MiOiJ2aWxpLnRlY2gifQ.d4_Pqp94KzbHUxNIybcT1clTTpPv88jBWN4um6eujorv7l5Mv9Tem6LjrOlnBnY3oPEUDSe1Z-igRDJtptLs7B_N9_O61u3kFVDJJYx4FswGi1aAFs9NkMUXerhXnn85ikm5tJ7JC0ijvUX3kUzH5XqFe6eZhMqedXjnlC3ouUZ9d7naOJM5wbH1OIdbzELaxr46KzbNjRIs0hE725Rw9TT7OFQf3TLBjqE_HDbsPRWJ2-PTLAtlBcTgxxjZAdx-DE776wVCHgWfV3rZ9bMzhktGc8U2mvutxqjemF4T_v6wPH0O_iEF9TfUfQ4OWsbJX8WBBPWNzWrHWFHSXX1u6Q` (string, optional) - The public identifier of the user. This field is required to make a request from an external application on behalf of the user specified in the token.
++ response_type: `code` (string, required) - Needs to be set to "code".
++ client_id: `29352735982374239857` (string, required) - The public identifier for the app.
++ redirect_uri: `https://example-app.com/callback` (string, required) - The URL must match one of the URLs that the developer registered when creating the application.
++ code_challenge: `` - To generate this code you need to create a random string using the characters A-Z, a-z, 0-9, and the punctuation characters (hypen, period, underscore, and tilde), between 43 and 128 characters long. then to create the code challenge. For devices that can perform a SHA256 hash, the code challenge is a BASE64-URL-encoded string of the SHA256 hash of the code verifier. Clients that do not have the ability to perform a SHA256 hash are permitted to use the plain code verifier string as the challenge.
++ code_challenge_method: S256 (string, required) - Either "plain" or "S256", depending on whether the challenge is the plain verifier string or the SHA256 hash of the string. If this parameter is omitted, the server will assume plain.
++ scope: `scope:scope scope2:scope2` (string, required) - The scope must match some of the scopes that the developer registered when creating the application.
++ state: `xcoivjuywkdkhvusuye3kch` (string, required) - A random string generated by your application, which you’ll verify later.
+
+### Oauth2AuthrorizeResponse
++ response_type: `code` (string, required) - Set to code.
++ client_id: `29352735982374239857` (string, required) - The public identifier for the app.
++ redirect_uri: `https://example-app.com/callback` (string, required) - The user confirmation password.
++ scope: `scope:scope scope2:scope2` (string, required) - The user name.
++ state: `xcoivjuywkdkhvusuye3kch` (string, required) - The user name.
+
+### Oauth2AuthorizeRedirect1
++ statusCode: `302` (number, required) - Status code to redirect to Login page.
++ url: `https://vili.tech/xcaret/?token_id=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3YWEzMGY3MS05ZDFjLTRlZTQtODYwMi1hYjk0YjM0MzdjMmQiLCJpc3MiOiJ2aWxpLnRlY2gifQ.d4_Pqp94KzbHUxNIybcT1clTTpPv88jBWN4um6eujorv7l5Mv9Tem6LjrOlnBnY3oPEUDSe1Z-igRDJtptLs7B_N9_O61u3kFVDJJYx4FswGi1aAFs9NkMUXerhXnn85ikm5tJ7JC0ijvUX3kUzH5XqFe6eZhMqedXjnlC3ouUZ9d7naOJM5wbH1OIdbzELaxr46KzbNjRIs0hE725Rw9TT7OFQf3TLBjqE_HDbsPRWJ2-PTLAtlBcTgxxjZAdx-DE776wVCHgWfV3rZ9bMzhktGc8U2mvutxqjemF4T_v6wPH0O_iEF9TfUfQ4OWsbJX8WBBPWNzWrHWFHSXX1u6Q&response_type=code&client_id=789583ab-584b-40bb-8efb-44cb5946c3f4&redirect_uri=http://vili.tech/login&code_challenge=123qwe&code_challenge_method=plain&scope=saludo:hola&state=123-` (string, required) - Url to redirect to Login page with parameters.
+
+### Oauth2AuthorizeRedirect2
++ statusCode: `302` (number, required) - Status code to redirect to Authorize page.
++ url: `https://vili.tech/authorize/?token_id=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3YWEzMGY3MS05ZDFjLTRlZTQtODYwMi1hYjk0YjM0MzdjMmQiLCJpc3MiOiJ2aWxpLnRlY2gifQ.d4_Pqp94KzbHUxNIybcT1clTTpPv88jBWN4um6eujorv7l5Mv9Tem6LjrOlnBnY3oPEUDSe1Z-igRDJtptLs7B_N9_O61u3kFVDJJYx4FswGi1aAFs9NkMUXerhXnn85ikm5tJ7JC0ijvUX3kUzH5XqFe6eZhMqedXjnlC3ouUZ9d7naOJM5wbH1OIdbzELaxr46KzbNjRIs0hE725Rw9TT7OFQf3TLBjqE_HDbsPRWJ2-PTLAtlBcTgxxjZAdx-DE776wVCHgWfV3rZ9bMzhktGc8U2mvutxqjemF4T_v6wPH0O_iEF9TfUfQ4OWsbJX8WBBPWNzWrHWFHSXX1u6Q&response_type=code&client_id=789583ab-584b-40bb-8efb-44cb5946c3f4&redirect_uri=http://vili.tech/login&code_challenge=123qwe&code_challenge_method=plain&scope=saludo:hola&state=123-` (string, required) - Url to redirect to Authorize page with parameters.
+
+### Oauth2AuthorizeRedirect3
++ statusCode: `302` (number, required) - Status code to redirect to Validation page.
++ url: `https://vili.tech/validation/?token_id=eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI3YWEzMGY3MS05ZDFjLTRlZTQtODYwMi1hYjk0YjM0MzdjMmQiLCJpc3MiOiJ2aWxpLnRlY2gifQ.d4_Pqp94KzbHUxNIybcT1clTTpPv88jBWN4um6eujorv7l5Mv9Tem6LjrOlnBnY3oPEUDSe1Z-igRDJtptLs7B_N9_O61u3kFVDJJYx4FswGi1aAFs9NkMUXerhXnn85ikm5tJ7JC0ijvUX3kUzH5XqFe6eZhMqedXjnlC3ouUZ9d7naOJM5wbH1OIdbzELaxr46KzbNjRIs0hE725Rw9TT7OFQf3TLBjqE_HDbsPRWJ2-PTLAtlBcTgxxjZAdx-DE776wVCHgWfV3rZ9bMzhktGc8U2mvutxqjemF4T_v6wPH0O_iEF9TfUfQ4OWsbJX8WBBPWNzWrHWFHSXX1u6Q&response_type=code&client_id=789583ab-584b-40bb-8efb-44cb5946c3f4&redirect_uri=http://vili.tech/login&code_challenge=123qwe&code_challenge_method=plain&scope=saludo:hola&state=123-` (string, required) - Url to redirect to Validation page with parameters.
+
+### Oauth2TokenPasswordReq
++ grant_type: `password` (string, required) - Indicates the grant type of this token request. This parameter must be set to "password".
++ username: `your@mail.com` (string, required) - The user password.
++ password: `Y0urp4ssw0rd-` (string, required) - The user confirmation password.
++ scope: `scope:scope scope2:scope2` (string, required) - The user name.
+
+### Oauth2TokenAuthorizationCodeReq
++ `grant_type`:  `authorization_code` (string, required) - Indicates the grant type of this token request. This parameter must be set to "authorization_code".
++ client_id: `789583ab-584b-40bb-8efb-44cb5946c3f4` (string, required) - The client ID.
++ client_secret: `Y0urs3cr3t-` (string, required) - The client secret.
++ redirect_uri: `http://example-app.com/redirect` (string, required) - The redirect URL that was used in the initial authorization request.
++ code: `XXXXXXXXXX` (string, required) - The client will send the authorization code it obtained in the redirect.
++ code_verifier: `YYYYYYYYYY` () - The code verifier for the PKCE request.
+
+### Oauth2TokenRefreshTokenReq
++ grant_type: `refresh_token` (string, required) - Indicates the grant type of this token request. This parameter must be set to "refresh_token".
++ client_id: `789583ab-584b-40bb-8efb-44cb5946c3f4` (string, required) - The client ID.
++ client_secret: `Y0urs3cr3t-` (string, required) - The client secret.
++ `refresh_token`: `eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1NzE3ODI4MzgsImV4cCI6MTU3MTg2OTIzOCwiaXNzIjoidmlsaS50ZWNoIiwianRpIjoiZDhiMTc3ZTEtOWQ1NC00NzE1LTk3MmQtYWZlNTRhZWY5N2FlIn0.BqaIp0KpfIBHmlkCNiVhugPW3cv8f4Nova9nk3ivy0MaNQwxHncTLBrHxj5-CX48tiqOiYMQpsMGKtmUedO5X9z4zC3hLXCxU5cBfZso_PSvxyEhBmey2Gx9ao3p33t2BLaIsbK_MWain9PwgUdwt_uR5ixpT1eR475XqUIlhhV1kRzRbaoE0e54s7bOqpQJE0peglJzOgdvNdMmiriOh01NkLgKpF-91hDOdmWPikBwIkzeTPV9Dy4vGF_u_4W0BISZzwmId-zlLa_aFzTgi3qDuMQqzbqp7Vr2UJkutEVgnYSW6FVBc-M4bTaMovuashL22ObJW1lyJs4c1b6Azg` (string, required) - The refresh token obtained when the user logged in or an app logged in on behalf of the user.
+
+### Oauth2TokenBadRequest
++ statusCode: 400 (number, required) - The error code.
++ error: Bad Request (string, required) - A description of the error code.
++ message (array[Oauth2TokenPasswordBadRequestMessage], required) - The list of errors.
+
+### Oauth2TokenPasswordBadRequestMessage
++ target (Oauth2TokenPasswordReq, required) - The sent body.
++ value: Y0urp4ssw0rd. (string, required) - The value of the invalid property.
++ property: password (string, required) - The invalid property name.
++ constraints (array[Oauth2TokenPasswordConstraints], required) - The constraints that property must have.
+
+### Oauth2TokenPasswordConstraints
++ isString: scope must be a string. (string, required) - The constraint that isn't accomplished.
+
+### Oauth2TokenUnauthorized
++ statusCode: 400 (number, required) - The error code.
++ error: Bad Request (string, required) - A description of the error code.
++ message Invalid Credentials (string, required) - The error.
+
+### Oauth2TokenInternalError
++ statusCode: 500 (number, required) - The error code.
++ error: Internal Server Error (string, required) - A description of the error code.

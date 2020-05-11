@@ -1,0 +1,22 @@
+[{     
+    "establishment_id": 10,
+    "source_id": 100000,
+    "source_type_id": 10000,
+    "retrieve_url": "https://www.google.com/maps/place/Xplor/@20.5911968,-87.1275379,17z/data=!4m7!3m6!1s0x8f4e43f57eac8ae3:0x567d45ca6240cfb3!8m2!3d20.5911918!4d-87.1253492!9m1!1b1",
+    "site_url": "https://www.google.com/maps/place/Xplor/@20.5911968,-87.1275379,17z/data=!4m7!3m6!1s0x8f4e43f57eac8ae3:0x567d45ca6240cfb3!8m2!3d20.5911918!4d-87.1253492!9m1!1b1"
+},
+{     
+    "establishment_id": 10,
+    "source_id": 100001,
+    "source_type_id": 10001,
+    "retrieve_url": "https://www.tripadvisor.com.mx/Attraction_Review-g150812-d4882791-Reviews-Xplor_Park_by_Xcaret-Playa_del_Carmen_Yucatan_Peninsula.html",
+    "site_url": "https://www.tripadvisor.com.mx/Attraction_Review-g150812-d4882791-Reviews-Xplor_Park_by_Xcaret-Playa_del_Carmen_Yucatan_Peninsula.html"
+},
+{     
+    "establishment_id": 11,
+    "source_id": 100002,
+    "source_type_id": 10000,
+    "retrieve_url": "https://www.google.com/maps/place/Hilton+Mexico+City+Reforma/@19.3998102,-99.3345084,12.25z/data=!4m11!1m2!2m1!1shotel+hilton!3m7!1s0x843aca350ab771a5:0xcc366795ad494b89!5m2!4m1!1i2!8m2!3d19.4345141!4d-99.1462206",
+    "site_url": "https://www.google.com/maps/place/Hilton+Mexico+City+Reforma/@19.3998102,-99.3345084,12.25z/data=!4m11!1m2!2m1!1shotel+hilton!3m7!1s0x843aca350ab771a5:0xcc366795ad494b89!5m2!4m1!1i2!8m2!3d19.4345141!4d-99.1462206"
+},
+]

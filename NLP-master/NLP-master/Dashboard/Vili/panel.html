@@ -1,0 +1,34 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<script src="./dist/bootstrap.bundle.js"></script>
+	<script src="./dist/vue.bundle.js"></script>
+	<script src="./dist/general.bundle.js"></script>
+	<script src="./dist/node_vendors.bundle.js"></script>
+
+	<title>Panel</title>
+
+</head>
+
+<body style="overflow-y: hidden;">
+
+	<div id="navbar">
+		<navbar :active_item="active_item"></navbar>
+	</div>
+
+	<div class="fluid-container mx-0 my-0 px-0 py-0">
+		<div id="embed_wrapper" class="col-sm-12 px-0">
+			<embed id="panel_embedding" width="100%" height="100%"
+				src="https://app.powerbi.com/view?r=eyJrIjoiYzdiODU4NDMtOThiNy00MDBjLTg1MzYtODYyNzc0MDlkN2JlIiwidCI6ImQyMmM0MWI2LTY2ODAtNDhiYS1iZGQzLWEzNDNiODJjNTdiOCJ9" />
+			</div>
+	</div>
+
+
+	<script src="./dist/panel.bundle.js"></script>
+
+
+
+</body>
+
+</html>

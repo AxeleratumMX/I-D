@@ -1,0 +1,14 @@
+
+data/
+CIFAR10/data/
+\.data/
+
+TransformerNN/__pycache__/
+
+TransformerNN/Training/__pycache__/
+
+\.idea/
+
+TransformerNN/Training/RealExample/__pycache__/
+
+TransformerNN/Training/FirstExample/__pycache__/

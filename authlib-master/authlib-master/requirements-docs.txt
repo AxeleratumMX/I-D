@@ -1,0 +1,5 @@
+-r requirements.txt
+Flask
+Django
+SQLAlchemy
+sphinx-typlog-theme==0.7.3
